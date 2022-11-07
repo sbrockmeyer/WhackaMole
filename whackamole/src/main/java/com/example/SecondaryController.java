@@ -47,8 +47,7 @@ public class SecondaryController {
         InputStream imageStream = null;
         try{
             if(!isBopped){
-                // imageStream = new FileInputStream("whackamole\\src\\main\\resources\\com\\example\\300px-Crying_Cat_screaming.jpg");
-                imageStream = new FileInputStream("whackamole\\src\\main\\resources\\com\\example\\19419700-bop-comic-expression-text.webp");
+                imageStream = new FileInputStream("whackamole\\src\\main\\resources\\com\\example\\300px-Crying_Cat_screaming.jpg");
             }else{
                 imageStream = new FileInputStream("whackamole\\src\\main\\resources\\com\\example\\mt.png");
             }
