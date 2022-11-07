@@ -37,6 +37,10 @@ public class SecondaryController {
         App.setRoot("primary");
     }
 
+    // as this page starts timer starts 
+    // count clicks
+    // 
+
     @FXML
     private void onBopped() throws FileNotFoundException{
         System.out.println("boop");
