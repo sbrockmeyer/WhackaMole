@@ -11,6 +11,10 @@ import javafx.scene.image.ImageView;
 
 public class SecondaryController {
 
+    // as this page starts timer starts 
+    // count clicks
+    // 
+
     private boolean isBopped = false;
 
     @FXML
@@ -37,17 +41,14 @@ public class SecondaryController {
         App.setRoot("primary");
     }
 
-    // as this page starts timer starts 
-    // count clicks
-    // 
-
     @FXML
     private void onBopped() throws FileNotFoundException{
         System.out.println("boop");
         InputStream imageStream = null;
         try{
             if(!isBopped){
-                imageStream = new FileInputStream("whackamole\\src\\main\\resources\\com\\example\\300px-Crying_Cat_screaming.jpg");
+                // imageStream = new FileInputStream("whackamole\\src\\main\\resources\\com\\example\\300px-Crying_Cat_screaming.jpg");
+                imageStream = new FileInputStream("whackamole\\src\\main\\resources\\com\\example\\19419700-bop-comic-expression-text.webp");
             }else{
                 imageStream = new FileInputStream("whackamole\\src\\main\\resources\\com\\example\\mt.png");
             }

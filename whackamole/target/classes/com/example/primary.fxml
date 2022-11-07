@@ -19,6 +19,9 @@
       <ImageView fx:id="image11" fitHeight="100" fitWidth="100" preserveRatio="true">
          <Image url="@300px-Crying_Cat_screaming.jpg" />
       </ImageView>
+      <ImageView fx:id="image11" fitHeight="100" fitWidth="100" preserveRatio="true">
+         <Image url="@19419700-bop-comic-expression-text.webp" />
+      </ImageView>
       <Button fx:id="primaryButton" text="Start Game" onAction="#switchToSecondary" />
    </children>
    <padding>
